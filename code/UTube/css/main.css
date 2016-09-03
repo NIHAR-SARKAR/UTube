@@ -1,0 +1,109 @@
+/*Css Document */
+
+body {
+    background-image: url('../img/background2.png');
+    font-family: 'BenchNine', sans-serif;
+}
+#outer {
+    width: 100%;
+    float: left;
+    margin:0px;padding:0px;
+}
+
+#head {
+    width: 98%;
+    padding: 10px 1%;
+    float: left;
+    overflow: hidden;
+}
+#main-frame {
+    width:100%;
+    float:left;
+    min-height:400px;
+}
+.left-float {
+    float:left;
+}
+.right-float {
+    float:right;
+}
+.mid-font {
+    font-size: 20px;
+    font-family:
+}
+.white-font {
+    color: #fff;
+}
+.no-underline {
+    text-decoration: none;
+}
+.small-ico {
+    height: 35px;
+}
+#footer {
+    bottom:0px;
+    overflow: hidden;
+    padding: 10px 1%;
+    width: 98%;
+    position:fixed;
+}
+.left-fix {
+    bottom: 10px;left:20px;
+    position:fixed;
+}
+
+.textbox {
+    width:300px;
+    padding:10px;
+    font-size:20px;
+    font-family:'Microsoft Sans Serif';
+    border:1px solid #aaa;
+    background-color:#e4e5e5;
+    font-family: 'BenchNine', sans-serif;
+}
+.upround {
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.bottomround {
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    padding-right:40px;
+    width:270px;
+}
+#LogIn {
+
+}
+.seperator {
+    border-right: 1px solid #fff;
+    margin:0px 5px;
+}
+.insidebutton {
+    width: 35px;
+    height: 35px;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-color:transparent;
+    z-index:99;
+    border:none;
+    margin-top:-35px;margin-left:125px;
+    cursor:pointer;
+    position:absolute;
+}
+.green-text {
+    color: #12901d;
+}
+.bold {
+    font-weight: 600;
+}
+.red-text {
+    color: #f00;
+}
+#keepMe {
+     width: 15px;
+    height:15px;
+}
+.standerd-links-white {
+    color:#0d1d7a;
+    text-decoration:none;
+}
